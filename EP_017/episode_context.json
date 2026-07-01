@@ -1437,7 +1437,7 @@
           "collector_responsible_defect_count": "1",
           "non_collector_defect_count": "0",
           "status": "critical",
-          "notes": "DC_G collected EP_017 cleanly and EP_018 as a partial-salvage first-failure-boundary case. EP_017 contributes 7 clean segments; EP_018 contributes only 3 pre-failure usable segments. SEG_018_04 is the failure event, and SEG_018_05–SEG_018_07 are excluded from training because continuity is broken. collector_segment_yield = 10/14 = 0.71; targeted pick-object grasp practice is still required."
+          "notes": "DC_G collected EP_017 cleanly and EP_018 as a partial-salvage first-failure-boundary case. EP_017 contributes 7 clean segments; EP_018 contributes 3 segments in the pre-failure usable span. SEG_018_04 is the failure event; SEG_018_05–SEG_018_07 form the post-failure excluded span and are excluded from training because continuity is broken. collector_segment_yield = 10/14 = 0.71; targeted pick-object grasp practice is still required."
         }
       ]
     },

@@ -747,7 +747,7 @@
           "review_decision_state": "made",
           "review_path_completed": "auto_qc -> trained_reviewer -> data_pm -> head_researcher",
           "review_flow_note": "updated_for_head_researcher_escalation_demo_from_v2_lifecycle_columns",
-          "segment_context_note": "Failure boundary for EP_018. Head Researcher resolved SEG_018_04 as not usable for training; downstream SEG_018_05–SEG_018_07 are excluded because object/trajectory continuity is broken."
+          "segment_context_note": "Failure boundary for EP_018. SEG_018_01–SEG_018_03 form the pre-failure usable span; SEG_018_04 is the failure segment; SEG_018_05–SEG_018_07 form the post-failure excluded span because object/trajectory continuity is broken."
         },
         {
           "_source_tab": "10A_SegmentReview_v2",
@@ -769,7 +769,7 @@
           "initial_review_decision": "needs_data_pm_review",
           "initial_training_span_type": "",
           "initial_decision_reason": "requires_data_pm_training_span_decision",
-          "initial_reviewer_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "initial_reviewer_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "initial_escalated_to_data_pm": "yes",
           "initial_escalated_to_data_pm_at": "2026-05-15 10:10:34",
           "data_pm_review_started_at": "2026-05-15 10:10:34",
@@ -779,7 +779,7 @@
           "data_pm_training_decision": "not_usable_for_training",
           "data_pm_training_span_type": "post_failure_excluded_span",
           "data_pm_decision_reason": "data_pm_excluded_segment_from_training",
-          "data_pm_review_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "data_pm_review_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "data_pm_escalated_to_head_researcher": "no",
           "data_pm_escalated_to_head_researcher_at": "",
           "head_researcher_review_started_at": "",
@@ -801,7 +801,7 @@
           "review_decision_state": "made",
           "review_path_completed": "auto_qc -> trained_reviewer -> data_pm",
           "review_flow_note": "corrected_for_first_failure_continuity_policy",
-          "segment_context_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
+          "segment_context_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
         },
         {
           "_source_tab": "10A_SegmentReview_v2",
@@ -823,7 +823,7 @@
           "initial_review_decision": "needs_data_pm_review",
           "initial_training_span_type": "",
           "initial_decision_reason": "requires_data_pm_training_span_decision",
-          "initial_reviewer_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "initial_reviewer_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "initial_escalated_to_data_pm": "yes",
           "initial_escalated_to_data_pm_at": "2026-05-15 10:10:34",
           "data_pm_review_started_at": "2026-05-15 10:10:34",
@@ -833,7 +833,7 @@
           "data_pm_training_decision": "not_usable_for_training",
           "data_pm_training_span_type": "post_failure_excluded_span",
           "data_pm_decision_reason": "data_pm_excluded_segment_from_training",
-          "data_pm_review_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "data_pm_review_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "data_pm_escalated_to_head_researcher": "no",
           "data_pm_escalated_to_head_researcher_at": "",
           "head_researcher_review_started_at": "",
@@ -855,7 +855,7 @@
           "review_decision_state": "made",
           "review_path_completed": "auto_qc -> trained_reviewer -> data_pm",
           "review_flow_note": "corrected_for_first_failure_continuity_policy",
-          "segment_context_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
+          "segment_context_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
         },
         {
           "_source_tab": "10A_SegmentReview_v2",
@@ -877,7 +877,7 @@
           "initial_review_decision": "needs_data_pm_review",
           "initial_training_span_type": "",
           "initial_decision_reason": "requires_data_pm_training_span_decision",
-          "initial_reviewer_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "initial_reviewer_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "initial_escalated_to_data_pm": "yes",
           "initial_escalated_to_data_pm_at": "2026-05-15 10:10:34",
           "data_pm_review_started_at": "2026-05-15 10:10:34",
@@ -887,7 +887,7 @@
           "data_pm_training_decision": "not_usable_for_training",
           "data_pm_training_span_type": "post_failure_excluded_span",
           "data_pm_decision_reason": "data_pm_excluded_segment_from_training",
-          "data_pm_review_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "data_pm_review_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "data_pm_escalated_to_head_researcher": "no",
           "data_pm_escalated_to_head_researcher_at": "",
           "head_researcher_review_started_at": "",
@@ -909,7 +909,7 @@
           "review_decision_state": "made",
           "review_path_completed": "auto_qc -> trained_reviewer -> data_pm",
           "review_flow_note": "corrected_for_first_failure_continuity_policy",
-          "segment_context_note": "Post-failure downstream exclusion after SEG_018_04. Not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
+          "segment_context_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not training-usable because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
         }
       ]
     },
@@ -1421,7 +1421,7 @@
           "issue_segment_ids": "SEG_018_04",
           "export_readiness_status": "ready",
           "export_status_updated_at": "2026-05-15 10:16:34",
-          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability, but only the pre-failure prefix is training-usable. SEG_018_04 is the failure event; downstream SEG_018_05–SEG_018_07 are excluded from training because continuity is broken."
+          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability. SEG_018_01–SEG_018_03 form the pre-failure usable span; SEG_018_04 is the failure event; SEG_018_05–SEG_018_07 form the post-failure excluded span because object trajectory continuity is broken."
         },
         {
           "_source_tab": "10C_DataExport",
@@ -1435,7 +1435,7 @@
           "issue_segment_ids": "SEG_018_04",
           "export_readiness_status": "ready",
           "export_status_updated_at": "2026-05-15 10:34:34",
-          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability, but only the pre-failure prefix is training-usable. SEG_018_04 is the failure event; downstream SEG_018_05–SEG_018_07 are excluded from training because continuity is broken."
+          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability. SEG_018_01–SEG_018_03 form the pre-failure usable span; SEG_018_04 is the failure event; SEG_018_05–SEG_018_07 form the post-failure excluded span because object trajectory continuity is broken."
         },
         {
           "_source_tab": "10C_DataExport",
@@ -1449,7 +1449,7 @@
           "issue_segment_ids": "SEG_018_04",
           "export_readiness_status": "ready",
           "export_status_updated_at": "2026-05-15 10:26:34",
-          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability, but only the pre-failure prefix is training-usable. SEG_018_04 is the failure event; downstream SEG_018_05–SEG_018_07 are excluded from training because continuity is broken."
+          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability. SEG_018_01–SEG_018_03 form the pre-failure usable span; SEG_018_04 is the failure event; SEG_018_05–SEG_018_07 form the post-failure excluded span because object trajectory continuity is broken."
         },
         {
           "_source_tab": "10C_DataExport",
@@ -1463,7 +1463,7 @@
           "issue_segment_ids": "SEG_018_04",
           "export_readiness_status": "ready",
           "export_status_updated_at": "2026-05-15 10:18:34",
-          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability, but only the pre-failure prefix is training-usable. SEG_018_04 is the failure event; downstream SEG_018_05–SEG_018_07 are excluded from training because continuity is broken."
+          "notes": "EP_018 is partial salvage: the collector dropped the object twice during SUB_PICK_PLACE_04. Full-episode package assets remain ready for review/export traceability. SEG_018_01–SEG_018_03 form the pre-failure usable span; SEG_018_04 is the failure event; SEG_018_05–SEG_018_07 form the post-failure excluded span because object trajectory continuity is broken."
         }
       ]
     },
@@ -1509,7 +1509,7 @@
           "collector_responsible_defect_count": "1",
           "non_collector_defect_count": "0",
           "status": "critical",
-          "notes": "DC_G collected EP_017 cleanly and EP_018 as a partial-salvage first-failure-boundary case. EP_017 contributes 7 clean segments; EP_018 contributes only 3 pre-failure usable segments. SEG_018_04 is the failure event, and SEG_018_05–SEG_018_07 are excluded from training because continuity is broken. collector_segment_yield = 10/14 = 0.71; targeted pick-object grasp practice is still required."
+          "notes": "DC_G collected EP_017 cleanly and EP_018 as a partial-salvage first-failure-boundary case. EP_017 contributes 7 clean segments; EP_018 contributes 3 segments in the pre-failure usable span. SEG_018_04 is the failure event; SEG_018_05–SEG_018_07 form the post-failure excluded span and are excluded from training because continuity is broken. collector_segment_yield = 10/14 = 0.71; targeted pick-object grasp practice is still required."
         }
       ]
     },
@@ -1819,7 +1819,7 @@
           "training_span_type": "failure_event",
           "training_span_id": "SPAN_EP_018_FAILURE",
           "segment_decision_owner": "Head Researcher",
-          "notes": "Failure boundary for EP_018. Head Researcher resolved SEG_018_04 as not usable for training; downstream segments are excluded because continuity is broken."
+          "notes": "Failure boundary for EP_018. SEG_018_04 is not usable for training; SEG_018_05–SEG_018_07 form the post-failure excluded span because continuity is broken."
         },
         {
           "_source_tab": "10A_SegmentReview",
@@ -1842,11 +1842,11 @@
           "review_escalated_at": "",
           "escalation_reason": "",
           "review_decision_state": "made",
-          "reviewer_note": "Post-failure downstream exclusion after SEG_018_04. The segment is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "reviewer_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "training_span_type": "post_failure_excluded_span",
           "training_span_id": "SPAN_EP_018_POST_FAILURE_EXCLUDED",
           "segment_decision_owner": "Data PM",
-          "notes": "Post-failure downstream exclusion after SEG_018_04. The segment is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
+          "notes": "This segment is part of the post-failure excluded span after SEG_018_04. It is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
         },
         {
           "_source_tab": "10A_SegmentReview",
@@ -1869,11 +1869,11 @@
           "review_escalated_at": "",
           "escalation_reason": "",
           "review_decision_state": "made",
-          "reviewer_note": "Post-failure downstream exclusion after SEG_018_04. The segment is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "reviewer_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "training_span_type": "post_failure_excluded_span",
           "training_span_id": "SPAN_EP_018_POST_FAILURE_EXCLUDED",
           "segment_decision_owner": "Data PM",
-          "notes": "Post-failure downstream exclusion after SEG_018_04. The segment is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
+          "notes": "This segment is part of the post-failure excluded span after SEG_018_04. It is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04."
         },
         {
           "_source_tab": "10A_SegmentReview",
@@ -1896,7 +1896,7 @@
           "review_escalated_at": "",
           "escalation_reason": "",
           "review_decision_state": "made",
-          "reviewer_note": "Post-failure downstream exclusion after SEG_018_04. The segment is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
+          "reviewer_note": "This segment is part of the post-failure excluded span after SEG_018_04. It is not counted for training because the failure boundary breaks object/trajectory continuity; the causal defect remains on SEG_018_04.",
           "training_span_type": "post_failure_excluded_span",
           "training_span_id": "SPAN_EP_018_POST_FAILURE_EXCLUDED",
           "segment_decision_owner": "Data PM",
