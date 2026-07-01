@@ -6,7 +6,7 @@
     "spreadsheet_id": "1XxcrMW-HBBWj5crbAXOya-jjjIh8M011CVjP2oeMfG4",
     "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1XxcrMW-HBBWj5crbAXOya-jjjIh8M011CVjP2oeMfG4/edit",
     "read_method": "Google Sheets API FORMATTED_VALUE",
-    "generated_at_utc": "2026-06-30T14:45:28+00:00",
+    "generated_at_utc": "2026-07-01T11:20:25Z",
     "public_copy_note": "This public context JSON was generated from the live Google Sheet. Local machine paths, local device ports, and Foundry media_reference payloads are omitted/redacted in the public copy. The published LeRobot parquet/video files remain in the EP_017 and EP_018 folders."
   },
   "summary": {
@@ -26,7 +26,8 @@
     "episode_duration_sec": 17.0,
     "episode_status": "pass",
     "total_segment_count": "7",
-    "primary_issue_type": ""
+    "primary_issue_type": "",
+    "usable_segment_count": "7"
   },
   "sheet_tabs": {
     "08B_CollectionEpisodes": {
@@ -1430,13 +1431,13 @@
           "data_collector_id": "DC_G",
           "episode_ids": "EP_017|EP_018",
           "total_segment_count": "14",
-          "salvageable_segment_count": "13",
-          "unsalvageable_segment_count": "1",
-          "collector_segment_yield": "0.93",
+          "salvageable_segment_count": "10",
+          "unsalvageable_segment_count": "4",
+          "collector_segment_yield": "0.71",
           "collector_responsible_defect_count": "1",
           "non_collector_defect_count": "0",
-          "status": "healthy",
-          "notes": "DC_G collected EP_017 cleanly and EP_018 as partial salvage. 13/14 segments are usable_for_training in 10A: EP_017 contributes 7 clean segments; EP_018 contributes 3 pre-failure + 3 post-recovery usable segments, with SEG_018_04 excluded after two collector-caused pick-object drops. Yield is healthy, but the repeated pick drop indicates targeted robot-operation practice is needed."
+          "status": "critical",
+          "notes": "DC_G collected EP_017 cleanly and EP_018 as a partial-salvage first-failure-boundary case. EP_017 contributes 7 clean segments; EP_018 contributes only 3 pre-failure usable segments. SEG_018_04 is the failure event, and SEG_018_05–SEG_018_07 are excluded from training because continuity is broken. collector_segment_yield = 10/14 = 0.71; targeted pick-object grasp practice is still required."
         }
       ]
     },
